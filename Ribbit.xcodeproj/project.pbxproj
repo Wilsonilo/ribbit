@@ -13,6 +13,13 @@
 		C8950FAC1BF8EE0100B23882 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8950FAB1BF8EE0100B23882 /* Assets.xcassets */; };
 		C8950FAF1BF8EE0100B23882 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8950FAD1BF8EE0100B23882 /* LaunchScreen.storyboard */; };
 		C8950FBA1BF8EE0100B23882 /* RibbitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C8950FB91BF8EE0100B23882 /* RibbitTests.m */; };
+		C8950FC51BF8EE1E00B23882 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8950FC41BF8EE1E00B23882 /* Storyboard.storyboard */; settings = {ASSET_TAGS = (); }; };
+		C8950FCC1BF8F64200B23882 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = C8950FC61BF8F64200B23882 /* camera.png */; settings = {ASSET_TAGS = (); }; };
+		C8950FCD1BF8F64200B23882 /* camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8950FC71BF8F64200B23882 /* camera@2x.png */; settings = {ASSET_TAGS = (); }; };
+		C8950FCE1BF8F64200B23882 /* friends.png in Resources */ = {isa = PBXBuildFile; fileRef = C8950FC81BF8F64200B23882 /* friends.png */; settings = {ASSET_TAGS = (); }; };
+		C8950FCF1BF8F64200B23882 /* friends@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8950FC91BF8F64200B23882 /* friends@2x.png */; settings = {ASSET_TAGS = (); }; };
+		C8950FD01BF8F64200B23882 /* inbox.png in Resources */ = {isa = PBXBuildFile; fileRef = C8950FCA1BF8F64200B23882 /* inbox.png */; settings = {ASSET_TAGS = (); }; };
+		C8950FD11BF8F64200B23882 /* inbox@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8950FCB1BF8F64200B23882 /* inbox@2x.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +44,13 @@
 		C8950FB51BF8EE0100B23882 /* RibbitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RibbitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8950FB91BF8EE0100B23882 /* RibbitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RibbitTests.m; sourceTree = "<group>"; };
 		C8950FBB1BF8EE0100B23882 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8950FC41BF8EE1E00B23882 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Storyboard.storyboard; path = ../Storyboard.storyboard; sourceTree = "<group>"; };
+		C8950FC61BF8F64200B23882 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		C8950FC71BF8F64200B23882 /* camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera@2x.png"; sourceTree = "<group>"; };
+		C8950FC81BF8F64200B23882 /* friends.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = friends.png; sourceTree = "<group>"; };
+		C8950FC91BF8F64200B23882 /* friends@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "friends@2x.png"; sourceTree = "<group>"; };
+		C8950FCA1BF8F64200B23882 /* inbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inbox.png; sourceTree = "<group>"; };
+		C8950FCB1BF8F64200B23882 /* inbox@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "inbox@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,9 +92,11 @@
 		C8950FA21BF8EE0100B23882 /* Ribbit */ = {
 			isa = PBXGroup;
 			children = (
+				C8950FD21BF8F64A00B23882 /* Images */,
 				C8950FA61BF8EE0100B23882 /* AppDelegate.h */,
 				C8950FA71BF8EE0100B23882 /* AppDelegate.m */,
 				C8950FA91BF8EE0100B23882 /* Ribbit-Prefix.pch */,
+				C8950FC41BF8EE1E00B23882 /* Storyboard.storyboard */,
 				C8950FAB1BF8EE0100B23882 /* Assets.xcassets */,
 				C8950FAD1BF8EE0100B23882 /* LaunchScreen.storyboard */,
 				C8950FB01BF8EE0100B23882 /* Info.plist */,
@@ -104,6 +120,19 @@
 				C8950FBB1BF8EE0100B23882 /* Info.plist */,
 			);
 			path = RibbitTests;
+			sourceTree = "<group>";
+		};
+		C8950FD21BF8F64A00B23882 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C8950FC61BF8F64200B23882 /* camera.png */,
+				C8950FC71BF8F64200B23882 /* camera@2x.png */,
+				C8950FC81BF8F64200B23882 /* friends.png */,
+				C8950FC91BF8F64200B23882 /* friends@2x.png */,
+				C8950FCA1BF8F64200B23882 /* inbox.png */,
+				C8950FCB1BF8F64200B23882 /* inbox@2x.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,9 +215,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8950FCE1BF8F64200B23882 /* friends.png in Resources */,
 				C8950FAF1BF8EE0100B23882 /* LaunchScreen.storyboard in Resources */,
+				C8950FC51BF8EE1E00B23882 /* Storyboard.storyboard in Resources */,
 				C8950FAC1BF8EE0100B23882 /* Assets.xcassets in Resources */,
 				C8950FAA1BF8EE0100B23882 /* Ribbit-Prefix.pch in Resources */,
+				C8950FD11BF8F64200B23882 /* inbox@2x.png in Resources */,
+				C8950FCC1BF8F64200B23882 /* camera.png in Resources */,
+				C8950FCF1BF8F64200B23882 /* friends@2x.png in Resources */,
+				C8950FCD1BF8F64200B23882 /* camera@2x.png in Resources */,
+				C8950FD01BF8F64200B23882 /* inbox.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
